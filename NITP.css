@@ -45,7 +45,8 @@ a{
     width: 8rem;
     height: 2.5rem;
     background-color: black;
-    border-radius: 0rem 4rem 0rem .5rem;   
+    border-radius: 0rem 4rem 0rem .5rem;
+
 
 }
 
@@ -143,7 +144,7 @@ a{
 
 .box{
     width: 16rem;
-    background-color: rgba(206, 177, 138, 0.683);
+    background-color:#b5d4ea;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -153,7 +154,7 @@ a{
     transition: all .2s ease-in-out;
 }
 .box:hover{
-    background-color: rgb(204, 155, 92);
+    background-color:#5f92af;
 
 }
     
@@ -182,6 +183,7 @@ a{
 
 
 .type{
+    font-family: kanit;
 
 }
 
@@ -215,7 +217,8 @@ a{
     border-radius: 0rem 0rem 1rem 1rem;
     transition: .2s ease-in-out;
     font-size: 1rem;
-
+    font-family: roboto slab;
+    font-weight: 450;
 
 }
 

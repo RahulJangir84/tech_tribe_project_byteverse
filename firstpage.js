@@ -1,4 +1,4 @@
-const homeButton = document.getElementById("home");
+const homeButton = document.getElementsByClassName("home");
 
 homeButton.addEventListener("click", function() {
   const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
