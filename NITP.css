@@ -1,0 +1,226 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.nitp{
+
+    background-image:url(NITPL.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 19rem;
+    width: 19rem;
+    position: absolute;
+    top: 20%;
+    left: 39%;
+    z-index: -2;
+
+}
+.block1{
+    margin: 3rem;
+    height: 35rem;
+    border-radius: 3rem;
+    box-shadow: 0px 0px 45px 25px rgba(107, 113, 26, 0.281);
+}
+
+
+.block1-1{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+
+.nav-cont{
+    display: flex;
+    align-items: center;
+    width: 8rem;
+    height: 2.5rem;
+    background-color: black;
+    border-radius: 0rem 4rem 0rem .5rem;   
+
+}
+
+
+
+#home{
+    margin-left: .8rem;
+    font-size: 1rem;
+    color: azure;
+    background: none;
+    transition: ease-in-out;
+    transition-duration: .2s;
+}
+
+#home:hover{
+    font-size: 1.4rem;
+    margin-left: .4rem;
+    color: grey;
+    cursor: pointer;
+}
+
+#option{
+    
+    margin-left: .8rem;
+    font-size: 1rem;
+    color: azure;
+    transition: ease-in-out;
+    transition-duration: .2s;
+
+}
+#option:hover{
+    font-size: 1.4rem;
+    color: grey;
+    cursor: pointer;
+
+}
+
+#search{
+    margin-top: .3rem;
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+}
+
+#search:hover{
+    transition: ease-in-out;
+    transition-duration: .2s;
+    font-size: 1.4rem;
+    color: grey;
+    cursor: pointer;
+}
+
+
+.logo{
+    background-image:url(editedlogo.jpg);
+    height:4rem ;
+    width:7.5rem ;
+    background-size:contain;
+    background-repeat: no-repeat;
+    /* background-color: coral; */
+    /* margin-right: 65rem; */
+    border-radius: 5rem;
+    /* box-shadow: 0px 0px 5px 5px rgba(54, 57, 13, 0.281); */
+    position: absolute;
+    top: 33rem;
+    left: 76rem;    
+}
+
+
+
+/* block2 */
+
+.block2{
+    height: 70rem;
+    /* background-color: rgb(139, 207, 44); */
+    margin-top: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-content: space-around;
+    
+}
+
+
+
+.block2-1{
+    height:22rem;
+    /* background-color: black; */
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    
+
+}
+
+
+.box{
+    width: 16rem;
+    background-color: rgba(206, 177, 138, 0.683);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    /* align-content: center; */
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+.box:hover{
+    background-color: rgb(204, 155, 92);
+
+}
+    
+
+
+.box1 {
+    /* background-color: black; */
+    background-color:white;
+    height: 5rem;
+    width: 15rem;
+    margin: .7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 1rem 1rem 0rem 0rem;
+    
+}
+
+.name{
+    font-family: roboto slab;
+    font-weight: 900;
+    font-size: 1.5rem;
+    
+}
+
+.type{
+
+}
+
+
+
+
+.box2 {
+    background-color:white;
+    background-position: center;
+    height: 15rem;
+    width: 15rem;
+    margin: 1rem;
+    margin-top: 0rem;
+    margin-bottom:0rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.box3 {
+    /* background-color: black; */
+    background-color:white;
+    height: 4rem;
+    width: 15rem;
+    margin: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0rem 0rem 1rem 1rem;
+    transition: .2s ease-in-out;
+    font-size: 1rem;
+
+
+}
+
+.box3:hover{
+    font-size:1.1rem ;
+    text-shadow: .4rem .4rem 1rem black;
+
+}

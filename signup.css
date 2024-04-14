@@ -1,0 +1,178 @@
+body{
+    background-image: url('background4.png');
+    align-items: center;
+    align-content: center;
+    /* background-position: center; */
+    background-size: cover;
+}
+.container{
+    border: solid 1px ;
+    
+    backdrop-filter: blur(10px);
+    border: none;
+    box-shadow: 0 0 10px  rgba(0,0,0,0.4);
+    border: 2px solid rgba(255,255,255,0.1);
+    width: 345px;
+    height: 470px;
+    background-color: transparent;
+    margin-left: 595px;
+    margin-top: 125px;
+    border-radius: 10px;
+}
+.heading{
+    text-align:center;
+    font-size: 31px;
+    font-family: 'Roboto Slab';
+    color: #fff;
+
+}
+.name {
+    background-color: transparent;
+    margin-top: 30px ;
+    margin-bottom: 14px;
+    position: relative;
+    
+    
+}
+    .name input {
+        width: 220px;
+        height: 35px;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgba(255,255,255,.2);
+        border-radius: 40px;
+        font-size: 16px;
+        margin-left: 60px;
+        font-family: 'Roboto Slab';
+        
+    }
+    .name input::placeholder{
+        color: #fff;
+        padding-left:12px ;
+        
+    }
+    
+    
+.mail {
+    background-color: transparent;
+    /* margin-top: 14px; */
+    position: relative;
+    margin-bottom: 0px;
+    
+}
+    .mail input {
+        width: 220px;
+        height: 35px;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgba(255,255,255,.2);
+        border-radius: 40px;
+        font-size: 16px;
+        margin-left: 60px;
+        font-family: 'Roboto Slab';
+ 
+    }
+    .mail input::placeholder{
+        color: #fff;
+        padding-left:12px ;
+    }
+    .password {
+        background-color: transparent;
+        margin-top: 15px ;
+        position: relative;
+        
+        
+    }
+        .password input {
+            width: 220px;
+            height: 35px;
+            background: transparent;
+            border: none;
+            outline: none;
+            border: 2px solid rgba(255,255,255,.2);
+            border-radius: 40px;
+            font-size: 16px;
+            margin-left: 60px;
+            font-family: 'Roboto Slab';
+            
+            
+        }
+        .password input::placeholder{
+            color: #fff;
+            padding-left:12px ;
+        }
+        .newpassword {
+            background-color: transparent;
+            margin: 15px 0;
+            position: relative;
+            
+        }
+            .newpassword input {
+                width: 220px;
+                height: 35px;
+                background: transparent;
+                border: none;
+                outline: none;
+                border: 2px solid rgba(255,255,255,.2);
+                border-radius: 40px;
+                font-size: 16px;
+                margin-left: 60px;
+                font-family: 'Roboto Slab';
+                
+            }
+            .newpassword input::placeholder{
+                color: #fff;
+                padding-left:12px ;
+            }
+            .btn1{
+                margin-left: 62px ;
+                padding: 8px;
+                font-size: 18px;
+                border-radius: 9px;
+                border: none;
+                font-family: 'Roboto Slab';
+                width: 222px;
+            }
+            .btn1:hover{
+                 background-color: #e2e2e2;
+                 cursor: pointer;
+            }
+            .btn1:active{
+                background-color: #cfcfcf;
+            }
+            .last{
+               text-align: center;
+               color: #fff;
+               font-size: 15px;
+               margin-top:25px ;
+            }
+            .icons{
+                display: flex;
+            }
+            .icon1{
+                width: 32px;
+                margin-left: 130px;
+            }
+            .icon2{
+                width: 32px;
+                border-radius: 15.5px;
+                margin-left: 18px;
+            }
+            .icon1{
+                cursor: pointer;
+            }
+            .icon2{
+                cursor: pointer;
+            }
+            .last p{
+                font-family: 'Roboto Slab';
+            }
+            
+                
+                
+        
+            
+        
+    
