@@ -41,7 +41,7 @@ body{
 
 
 
-.home{
+#home{
     
     position: absolute;
     left:8.0%;
@@ -52,7 +52,7 @@ body{
     cursor: pointer;
 }
 
-.home:hover{
+#home:hover{
     font-size :1.4rem;
     color:beige;
     left:7.9%;
