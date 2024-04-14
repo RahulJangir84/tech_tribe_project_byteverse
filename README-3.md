@@ -38,7 +38,7 @@ This project is a web based project that focuses on bringing together different 
 - MONGO DB
 ## Video of our project
 
--Video link:  
+- Video link:  https://youtu.be/XLNxhhtPOr4?si=QyjRe-30MEYh6ZXb
             
 ## Installation
 
