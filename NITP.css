@@ -42,11 +42,11 @@ a{
 .nav-cont{
     display: flex;
     align-items: center;
-    width: 8rem;
+    width: 3.5rem;
     height: 2.5rem;
     background-color: black;
     border-radius: 0rem 4rem 0rem .5rem;
-
+    position: relative;
 
 }
 
@@ -54,16 +54,23 @@ a{
 
 #home{
     margin-left: .8rem;
-    font-size: 1rem;
-    color: azure;
+    font-size: 2rem;
+    color: black;
     background: none;
     transition: ease-in-out;
     transition-duration: .2s;
+    position: fixed;
+    top: 87vh;
+    left: 190vh;
+    border: 3px solid black;
+    border-radius: 50%;
+    padding: 8px;
 }
 
 #home:hover{
-    font-size: 1.4rem;
-    margin-left: .4rem;
+    transform: scale(.9);
+    /* font-size: 1.4rem;
+    margin-left: .4rem; */
     color: grey;
     cursor: pointer;
 }
@@ -111,7 +118,8 @@ a{
     /* box-shadow: 0px 0px 5px 5px rgba(54, 57, 13, 0.281); */
     position: absolute;
     top: 33rem;
-    left: 76rem;    
+    left: 5vw;
+        
 }
 
 
